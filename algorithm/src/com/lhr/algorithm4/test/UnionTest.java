@@ -39,5 +39,10 @@ public class UnionTest {
 		Assert.assertEquals(union.count(), 8);
 		
 	}
+	
+	@Test
+	public void hashTest() {
+		System.out.println(1<<4);
+	}
 
 }

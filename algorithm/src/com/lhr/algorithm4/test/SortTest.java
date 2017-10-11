@@ -1,9 +1,9 @@
 package com.lhr.algorithm4.test;
 
 import org.junit.Test;
-import com.lhr.algorithm4.test.base.BaseTest;
+import com.lhr.algorithm4.test.base.BaseSearchTest;
 
-public class SortTest extends BaseTest {
+public class SortTest extends BaseSearchTest {
 
 	@Test
 	public void testPractice() {
