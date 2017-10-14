@@ -9,6 +9,7 @@ import com.lhr.algorithm4.graph.Graph;
  * @content
  *          <h3>连通分量</h3>
  *          <pre>
+ *          作用：识别无向图中顶点的连通性
  *          实现原理:基于顶点索引数组 id[],如果v属于第i个连通分量,则id[v] = i,如此重复直到所有的顶点都被标记并区分 
  *          </pre>
  */

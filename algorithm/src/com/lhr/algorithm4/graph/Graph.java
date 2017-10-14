@@ -9,7 +9,7 @@ import edu.princeton.cs.algs4.In;
  * @github https://github.com/ChinaLHR 
  * @content
  * 
- * <h3>邻接表数据结构表示图</h3>
+ * <h3>邻接表数据结构表示无向图</h3>
  * <pre>
  * 性能：
  * ①使用的空间和V+E成正比

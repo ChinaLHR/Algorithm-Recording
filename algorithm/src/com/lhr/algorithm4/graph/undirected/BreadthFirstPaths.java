@@ -10,11 +10,7 @@ import edu.princeton.cs.algs4.Stack;
  * @email 13435500980@163.com
  * @github https://github.com/ChinaLHR 
  * @content
- *  <h3>基于广度优先算法的路径寻找</h3>
- *  <pre>
- *  实现思路:
- *  
- *  </pre>
+ *  <h3>基于广度优先算法的(最短路径)路径寻找</h3>
  */
 @SuppressWarnings("unused")
 public class BreadthFirstPaths {
