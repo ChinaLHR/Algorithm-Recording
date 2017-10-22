@@ -15,13 +15,13 @@ package com.lhr.algorithm4.graph.undirected;
 public class CC {
 
 	private boolean[] marked;
-	private int id[];
+	private int id[];//记录顶点x的连通分量值
 	private int count;
 
 	public CC(Graph G) {
 		marked = new boolean[G.V()];
 		id = new int[G.V()];
-		//①使用以顶点作为索引的数组id[ ]，将同一个连通分量用int值关联起来。
+		//①使用以顶点作为索引的数组id[]，将同一个连通分量用int值关联起来。
 		//②遍历所有顶点的dfs，用id[ x ] 把同相连的顶点用同一个count值关联  （id[ x ] = count）
 		for (int s = 0; s < G.V(); s++)
 			if (!marked[s]) {

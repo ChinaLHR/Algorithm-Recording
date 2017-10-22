@@ -30,7 +30,7 @@ import edu.princeton.cs.algs4.Queue;
 @SuppressWarnings("unused")
 public class PrimMST {
 	
-	private Edge[] edgeTo;//距离树最近的边
+	private Edge[] edgeTo;//距离树最近的边，维护整颗最小生成树
 	private double[] distTo;//distTo[w] = edgeTo[w].weight
 	private boolean[] marked;//如果v在树中则marked[v] = true
 	private IndexMinPQ<Double> pq;//有效的横切边

@@ -10,6 +10,11 @@ import edu.princeton.cs.algs4.Stack;
  * @content
  * <h3>基于Dijkstra算法的单源点最短路径实现</h3>
  * <pre>
+ * 基本思想：
+ * 维护两个数据结构，一个为已求出最短路径的顶点集合（用S表示），一个为其余未确定最短路径的顶点集合（用U表示），按最短路径长度的递增次序依次把第二组的顶点加入S中。
+ * 在加入的过程中，总保持从源点v到S中各顶点的最短路径长度不大于从源点v到U中任何顶点的最短路径长度。此外，每个顶点对应一个距离，S中的顶点的距离就是从v到此顶点的最短路
+ * 径长度，U中的顶点的距离，是从v到此顶点只包括S中的顶点为中间顶点的当前最短路径长度。
+ * 
  * 实现：
  * 不断地将distTo[]中最小的非树顶点放松并加入树，重复直到所有的顶点都在树中。
  * ①初始化，MinPQ只包含源点，距离为0，其他顶点距离为MAX。
@@ -33,9 +38,7 @@ public class DijkstraSP {
 		for (int v = 0; v < G.V(); v++)
 			distTo[v] = Double.POSITIVE_INFINITY;
 		distTo[s] = 0.0;
-		
 		pq.insert(s, 0.0);
-		
 		while (!pq.isEmpty())
 			relax(G, pq.delMin());
 		
