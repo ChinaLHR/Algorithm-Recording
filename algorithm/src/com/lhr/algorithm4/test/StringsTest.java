@@ -1,14 +1,33 @@
 package com.lhr.algorithm4.test;
 
+import org.junit.Assert;
 import org.junit.Test;
 
-import com.lhr.algorithm4.strings.sort.LSD;
+import com.lhr.algorithm4.strings.search.TrieST;
 import com.lhr.algorithm4.strings.sort.MSD;
 
 public class StringsTest {
 
 	@Test
-	public void test() {
+	public void testTST() {
+		TrieST<Integer> tst = new TrieST<>();
+		tst.put("lhr1996", 999);
+		tst.put("lhr1988", 999);
+		tst.put("lnx1995", 888);
+		tst.put("lcq1996", 777);
+		tst.put("wyq", 666);
+		tst.put("hpz", 555);
+		Assert.assertTrue(tst.get("lhr")==999);
+		Assert.assertTrue(tst.get("lnx")==888);
+		Iterable<String> iterable1 = tst.keysWithPrefix("l");
+		for (String string : iterable1) {
+			System.out.println(string);
+		}
+	
+	}
+	
+	@Test
+	public void testMSD() {
 		MSD lsd = new MSD();
 		String[] strings = getStringArray();
 		lsd.sort(strings);
