@@ -5,9 +5,29 @@ import org.junit.Test;
 
 import com.lhr.algorithm4.strings.search.TrieST;
 import com.lhr.algorithm4.strings.sort.MSD;
+import com.lhr.algorithm4.strings.substring.BoyerMoore;
+import com.lhr.algorithm4.strings.substring.KMP;
+import com.lhr.algorithm4.strings.substring.ViolenceFind;
 
 public class StringsTest {
 
+	@Test
+	public void testViolenceFind() {
+		ViolenceFind find = new ViolenceFind();
+		int i = find.searcha("lhr1996", getSubstringTxT());
+		String substring = getSubstringTxT().substring(i,i+7);
+		System.out.println(substring);
+	}
+	
+	@Test
+	public void testKMP() {
+		BoyerMoore bm = new BoyerMoore("lhr1996");
+		int i = bm.search(getSubstringTxT());
+		String substring = getSubstringTxT().substring(i,i+7);
+		System.out.println(substring);
+	}
+	
+	
 	@Test
 	public void testTST() {
 		TrieST<Integer> tst = new TrieST<>();
@@ -46,6 +66,10 @@ public class StringsTest {
 
 		Student[] stus = { stu1, stu2, stu3, stu4, stu5, stu6 };
 		return stus;
+	}
+	
+	public String getSubstringTxT() {
+		return "asdadjaslkdshfsdajalhr1996ksdkjasdsakfhiowequoiweqweqnzxkc";
 	}
 	
 	public String[] getStringArray() {
