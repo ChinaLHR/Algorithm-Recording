@@ -19,7 +19,7 @@ public class ShellSort {
 	public static void sort(int[] a) {
 		int N = a.length;
 		int h = 1;
-		// 1，4，13...
+		// 1，4，13... 计算合适的起始区间值
 		while (h < N / 3)
 			h = 3 * h + 1;
 		// 进行插入排序将数组变成h有序
@@ -38,5 +38,5 @@ public class ShellSort {
 		a[i] = j;
 		a[j] = t;
 	}
-
+	
 }

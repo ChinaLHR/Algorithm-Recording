@@ -12,6 +12,8 @@ package com.lhr.algorithm4.sort;
  *
  * 缺陷：为了找出最小元素需要扫描一遍数组，并且不能为接下来的扫描提供信息。导致扫描一个已排序
  * 	         的数组与一个未排序的随机数组消耗时间一样。
+ * 
+ * 复杂的:O(n2)
  * </pre>
  */
 public class SelectionSort {

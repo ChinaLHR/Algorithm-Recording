@@ -12,6 +12,8 @@ package com.lhr.algorithm4.union;
  * 缺陷：可能会将大树链接到小树上，导致树的高度过高
  * <br/>
  * 算法复杂度：O(n)-O(n2)
+ * 
+ * 实现：index:链接数1 value:链接数1的链接数
  */
 public class QuickUnion {
 
@@ -33,6 +35,9 @@ public class QuickUnion {
 	
 	/**
 	 * 从给定触点开始，由他的链接得到另一个触点，依次反复，直到找到根触点，既链接指向根除点。
+	 * 
+	 * a——>b——>c  find(a) = c
+	 * 
 	 * @param p
 	 * @return
 	 */

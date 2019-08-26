@@ -87,6 +87,7 @@ public class MergeSort {
 		// Copy a[lo..hi] 到 aux[lo..hi]
 		for (int k = lo; k <= hi; k++)
 			aux[k] = a[k];
+		// 归并回到a[lo..hi]
 		for (int k = lo; k <= hi; k++) {
 			if (i > mid)
 				a[k] = aux[j++];// 左半边用尽，取右半边
