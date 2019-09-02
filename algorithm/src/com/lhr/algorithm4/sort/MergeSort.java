@@ -34,9 +34,9 @@ public class MergeSort {
 	public static void sortDownToUp(int[] a) {
 		aux = new int[a.length];
 		int N = a.length;
-		
-		for (int sz = 1; sz < N; sz+=sz) //sz：设定子数组大小 [1,2,4,8...]
-			//归并两个子数组  , lo：子数组索引 
+		//sz：设定子数组大小 [1,2,4,8...]
+		for (int sz = 1; sz < N; sz=sz*2) 
+			//归并子数组 ,确定各个子数组中lo mid hi的索引  
 			for (int lo = 0; lo <N-sz; lo+=sz*2) {
 				int mid = lo+sz-1;
 				//最后一位可能会越界，所以在此取最小数

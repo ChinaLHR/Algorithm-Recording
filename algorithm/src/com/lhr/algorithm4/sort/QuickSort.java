@@ -42,14 +42,14 @@ public class QuickSort {
 	 * @return
 	 */
 	private static int partition(int[] a, int lo, int hi) {
-		int i = lo,j = hi+1;//左右扫描指针
-		int v = a[lo];//切分的元素
+		int i = lo,j = hi+1;//左右扫描指针 左i 右j
+		int v = a[lo];//切分的元素(index 0的元素)
 		while(true) {
 			//扫描左右，检查扫描是否结束并交换元素
-			while(a[++i]<v) if (i==hi) break;//向右扫描，i==hi停止
-			while(a[--j]>v) if (j==lo) break; //向左扫描，j==lo停止
+			while(a[++i]<v) if (i==hi) break;//向右扫描，i==hi停止 找到比切分元素更小的元素
+			while(a[--j]>v) if (j==lo) break; //向左扫描，j==lo停止 找到比切分元素更大的元素
 			if (i>=j) break;//此时指针相遇，跳出循环
-			exch(a, i, j);
+			exch(a, i, j);//交换指针两边元素位置
 		}
 		exch(a, lo, j);//将v= a[j]放入正确的位置
 		return j;
