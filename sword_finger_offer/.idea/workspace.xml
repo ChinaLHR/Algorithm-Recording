@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94dacad6-4e15-44fa-8f9a-5449745369fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/base/QueueLinkedListImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/base/StackArrayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/base/StackLinkedListImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/Digraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/DirectedCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/directed/DepthFirstOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/directed/Digraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/directed/DirectedCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/directed/DirectedDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/directed/KosarajuSCC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/directed/Topological.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/mst/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/mst/EdgeWeightedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/mst/KruskalMST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/mst/LazyPrimMST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/mst/PrimMST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/sp/DijkstraSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/sp/DirectedEdge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/sp/EdgeWeightedDigraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/undirected/BreadthFirstPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/undirected/CC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/undirected/DepthFirstPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/graph/undirected/DepthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/search/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/search/BinarySearchST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/search/LinearProbingHashST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/search/RedBlackBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/search/SeparateChainingHashST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/search/SequentialSearchST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/sort/BucketSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/sort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/sort/MaxPQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/sort/MaxPQSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/sort/Quick3waySort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/sort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/sort/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/strings/search/TST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/strings/search/TrieST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/strings/sort/LSD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/strings/sort/Quick3string.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/strings/substring/BoyerMoore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/strings/substring/KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/strings/substring/ViolenceFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/test/AlgorithmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/test/GraphTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/test/OriginalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/test/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/test/SortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/test/StringsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/test/UnionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/test/base/BaseSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/test/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/union/QuickFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/union/QuickUnion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm4/src/main/java/io/github/chinalhr/algorithm4/union/QuickUnionWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/BinaryTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/MyMaxPQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N01_Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N01_Singleton2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N02_TwodArraySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N04_ReplaceStringBlank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N05_InvertLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N06_RebuildBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N07_QueueImplStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N07_StackImplQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N08_RotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N09_Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N09_Fibonacci_frog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N10_Binary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N11_NumberPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N12_MaxNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N13_DeleteLinekedNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N14_AdjustArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N15_LinkedNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N17_MergeLineked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N18_JudgeTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N19_MirrorTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N20_PrintMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N21_MinFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N22_StackOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N23_TopToBottomPrintTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N24_TreeePilogue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N25_TreeNodePrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N26_LinkedCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N27_TreeAndLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N28_StringArrange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N29_FindFalfNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N30_FindKMinNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N31_SubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N32_OneToNNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N33_ArrangeMinNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N34_ClownNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N35_OneFirstAppear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N36_ArrayReversedTwain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N37_LinkedCommonNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N38_NumAppearCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N39_BinaryTreeDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N40_AppearOnceNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N41_ArrayNumSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N42_ReversalWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N43_NDiceNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N44_PlayingCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N45_LastNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N47_AddOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/.settings/org.eclipse.core.runtime.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/exam/GetPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/exam/MaxPQTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/exam/StringExam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/BinaryTreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/MyMaxPQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N01_Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N01_Singleton2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N02_TwodArraySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N04_ReplaceStringBlank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N05_InvertLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N06_RebuildBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N07_QueueImplStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N07_StackImplQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N08_RotateArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N09_Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N09_Fibonacci_frog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N10_Binary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N11_NumberPower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N12_MaxNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N13_DeleteLinekedNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N14_AdjustArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N15_LinkedNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N17_MergeLineked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N18_JudgeTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N19_MirrorTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N20_PrintMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N21_MinFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N22_StackOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N23_TopToBottomPrintTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N24_TreeePilogue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N25_TreeNodePrice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N26_LinkedCopy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N27_TreeAndLinked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N28_StringArrange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N29_FindFalfNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N30_FindKMinNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N31_SubarraySum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N32_OneToNNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N33_ArrangeMinNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N34_ClownNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N35_OneFirstAppear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N36_ArrayReversedTwain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N37_LinkedCommonNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N38_NumAppearCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N39_BinaryTreeDepth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N40_AppearOnceNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N41_ArrayNumSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N42_ReversalWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N43_NDiceNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N44_PlayingCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N45_LastNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm Problem/src/com/lhr/sword_offer/N47_AddOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/1.线性表/线性表链式存储.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/1.线性表/线性表静态链表实现.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/1.线性表/线性表顺序存储.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/2.栈与队列/01顺序栈_Stack.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/2.栈与队列/02两栈共享空间_DoubleStack.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/2.栈与队列/03链栈_LinkStack.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/2.栈与队列/04斐波那契函数_Fibonacci.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/2.栈与队列/05顺序队列_Queue.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/2.栈与队列/06链队列_LinkQueue.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/3.串/01串_String.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/3.串/02模式匹配_KMP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/4.树/二叉树链式结构实现.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/4.树/二叉树顺序结构实现_BiTreeArray.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/4.树/线索二叉树结构实现.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/5.图/01邻接矩阵创建_CreateMGraph.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/5.图/02邻接表创建_CreateALGraph.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/5.图/03邻接矩阵深度和广度遍历DFS_BFS.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/5.图/04邻接表深度和广度遍历DFS_BFS.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/5.图/05最小生成树_Prim.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/5.图/06最小生成树_Kruskal.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/5.图/07最短路径_Dijkstra.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/5.图/08最短路径_Floyd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/5.图/09拓扑排序_TopologicalSort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/5.图/10关键路径_CriticalPath.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/6.查找/01静态查找_Search.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/6.查找/02二叉查找树.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/6.查找/03平衡二叉树_AVL.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/6.查找/04B树_BTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Collections/ArrayDeque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Collections/ArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Collections/HashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Collections/HashSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Collections/LinkedHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Collections/LinkedHashSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Collections/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Collections/PriorityQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Collections/TreeMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Collections/TreeSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Collections/WeakHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/lib/algs4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/base/QueueLinkedListImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/base/StackArrayImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/base/StackLinkedListImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/Digraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/DirectedCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/directed/DepthFirstOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/directed/Digraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/directed/DirectedCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/directed/DirectedDFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/directed/KosarajuSCC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/directed/Topological.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/mst/Edge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/mst/EdgeWeightedGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/mst/KruskalMST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/mst/LazyPrimMST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/mst/PrimMST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/sp/BellmanFordSP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/sp/DijkstraSP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/sp/DirectedEdge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/sp/EdgeWeightedDigraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/undirected/BreadthFirstPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/undirected/CC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/undirected/DepthFirstPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/undirected/DepthFirstSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/graph/undirected/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/search/BST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/search/BinarySearchST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/search/LinearProbingHashST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/search/RedBlackBST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/search/SeparateChainingHashST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/search/SequentialSearchST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/sort/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/sort/BucketSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/sort/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/sort/MaxPQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/sort/MaxPQSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/sort/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/sort/Quick3waySort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/sort/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/sort/SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/sort/ShellSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/strings/basics/KeyIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/strings/search/TST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/strings/search/TrieST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/strings/sort/LSD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/strings/sort/MSD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/strings/sort/Quick3string.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/strings/substring/BoyerMoore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/strings/substring/KMP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/strings/substring/ViolenceFind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/test/AlgorithmTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/test/GraphTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/test/OriginalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/test/Practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/test/SearchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/test/SortTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/test/StringsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/test/UnionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/test/base/BaseSearchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/test/base/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/union/QuickFind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/union/QuickUnion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/com/lhr/algorithm4/union/QuickUnionWeight.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1206247834">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="9" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../kotlin-vertx-boilerplate" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../reactive-web" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../reactive-webstack" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sz-vertx-kotlin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../vertx learn/kotlin-vertx-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../vertx learn/vertxProjects/vertx-web-kotlin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../vertx-blueprint-todo-backend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../vertx-starter" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../work-lx/athena" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="S:/Programmingtools/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="S:\Programmingtools\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Gradle</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Probable bugsGradle</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sword_finger_offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword_finger_offer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sword_finger_offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword_finger_offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sword_finger_offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword_finger_offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sword_finger_offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword_finger_offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sword_finger_offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword_finger_offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sword_finger_offer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sword_finger_offer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sword_finger_offer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sword_finger_offer" type="462c0819:PsiDirectoryNode" />
+              <item name="N05_InvertLinkedList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598284390509" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="S:\Code\Github\Algorithm-Record\sword_finger_offer\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="N07_QueueImplStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.chinalhr.sword_finger_offer.N07_QueueImplStack" />
+      <module name="sword_finger_offer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.chinalhr.sword_finger_offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.N07_QueueImplStack" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94dacad6-4e15-44fa-8f9a-5449745369fd" name="Default Changelist" comment="" />
+      <created>1598284220235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598284220235</updated>
+      <workItem from="1598284221597" duration="190000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="190000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32973805" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lhr/exam/GetPrime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lhr/exam/MaxPQTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/BinaryTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/MyMaxPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N01_Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N07_StackImplQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lhr/exam/StringExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N04_ReplaceStringBlank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/chinalhr/sword_finger_offer/N07_QueueImplStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
