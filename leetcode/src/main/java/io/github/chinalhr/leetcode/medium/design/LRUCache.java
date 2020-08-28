@@ -1,12 +1,15 @@
 package io.github.chinalhr.leetcode.medium.design;
 
+import com.google.common.base.Preconditions;
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * @Author: lihanrong
  * @Date: 2020/8/27 3:25 下午
- * @Description: 题目:
+ * @Description: 题目: 146. LRU缓存机制
+ * <p>
  * 运用你所掌握的数据结构，设计和实现一个  LRU (最近最少使用) 缓存机制。它应该支持以下操作： 获取数据 get 和 写入数据 put 。
  * <p>
  * 获取数据 get(key) - 如果关键字 (key) 存在于缓存中，则获取关键字的值（总是正数），否则返回 -1。
@@ -27,13 +30,12 @@ import java.util.Map;
  * 【哈希表+双向链表】
  * 双向链表按照被使用的顺序存储了这些键值对，靠近头部的键值对是最近使用的，而靠近尾部的键值对是最久未使用的。
  * 哈希表即为普通的哈希映射（HashMap），通过缓存数据的键映射到其在双向链表中的位置。
- * <p>
  * 首先使用哈希表进行定位，找出缓存项在双向链表中的位置，随后将其移动到双向链表的头部，即可在 O(1) 的时间内完成 get 或者 put 操作。
  * 注意：可以使用一个伪头部（dummy head）和伪尾部（dummy tail）标记界限，这样在添加节点和删除节点的时候就不需要检查相邻的节点是否存在。
  */
 public class LRUCache {
 
-    class LinkedNode {
+    static class LinkedNode {
         int key;
         int value;
         LinkedNode prev;
@@ -53,7 +55,7 @@ public class LRUCache {
     private int capacity;
     private LinkedNode head, tail;
 
-    public LRUCache(int capacity){
+    public LRUCache(int capacity) {
         this.size = 0;
         this.capacity = capacity;
         // 使用伪头部和伪尾部节点
@@ -91,7 +93,7 @@ public class LRUCache {
             return;
         }
         //创建一个新节点，添加到HashMap、链表头部
-        LinkedNode newNode = new LinkedNode(key,value);
+        LinkedNode newNode = new LinkedNode(key, value);
         cache.put(key, newNode);
         addToHead(newNode);
         size++;
@@ -124,5 +126,18 @@ public class LRUCache {
         LinkedNode lastNode = tail.prev;
         removeNode(lastNode);
         return lastNode;
+    }
+
+    public static void main(String[] args) {
+        LRUCache cache = new LRUCache(2);
+        cache.put(1, 1);
+        cache.put(2, 2);
+        Preconditions.checkArgument(cache.get(1) == 1);       // 返回  1
+        cache.put(3, 3);    // 该操作会使得key 2 作废
+        Preconditions.checkArgument(cache.get(2) == -1);       // 返回 -1 (未找到)
+        cache.put(4, 4);    // 该操作会使得密钥 1 作废
+        Preconditions.checkArgument(cache.get(1) == -1);       // 返回 -1 (未找到)
+        Preconditions.checkArgument(cache.get(3) == 3);       // 返回  3
+        Preconditions.checkArgument(cache.get(4) == 4);       // 返回  4
     }
 }

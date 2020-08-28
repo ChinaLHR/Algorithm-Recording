@@ -7,6 +7,13 @@
     <groupId>io.github.chinalhr</groupId>
     <artifactId>leetcode</artifactId>
     <version>1.0.0</version>
-
+    <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>29.0-jre</version>
+        </dependency>
+    </dependencies>
 
 </project>
