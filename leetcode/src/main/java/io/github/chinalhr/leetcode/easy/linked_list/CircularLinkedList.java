@@ -1,5 +1,7 @@
 package io.github.chinalhr.leetcode.easy.linked_list;
 
+import io.github.chinalhr.leetcode.base.ListNode;
+
 /**
  * @Author: lihanrong
  * @Date: 2020/8/28 4:18 下午
@@ -17,17 +19,7 @@ package io.github.chinalhr.leetcode.easy.linked_list;
  * - 如果不含有环，跑得快的那个指针最终会遇到 null，说明链表不含环
  * - 如果含有环，快指针会超慢指针一圈，和慢指针相遇，说明链表含有环。
  */
-public class Solution {
-
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
+public class CircularLinkedList {
 
     public boolean hasCycle(ListNode head) {
         ListNode slow = head, fast = head;
