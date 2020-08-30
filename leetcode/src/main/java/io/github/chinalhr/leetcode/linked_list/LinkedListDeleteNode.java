@@ -1,11 +1,11 @@
-package io.github.chinalhr.leetcode.easy.linked_list;
+package io.github.chinalhr.leetcode.linked_list;
 
 import io.github.chinalhr.leetcode.base.ListNode;
 
 /**
  * @Author: lihanrong
  * @Date: 2020/8/28 4:59 下午
- * @Description: 题目： 19. 删除链表的倒数第N个节点
+ * @Description: 题目： 19. 删除链表的倒数第N个节点 medium
  * <p>
  * 给定一个链表，删除链表的倒数第 n 个节点，并且返回链表的头结点。
  * <p>

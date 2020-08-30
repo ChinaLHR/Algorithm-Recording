@@ -1,11 +1,11 @@
-package io.github.chinalhr.leetcode.easy.linked_list;
+package io.github.chinalhr.leetcode.linked_list;
 
 import io.github.chinalhr.leetcode.base.ListNode;
 
 /**
  * @Author: lihanrong
  * @Date: 2020/8/28 4:18 下午
- * @Description: 题目：141. 环形链表
+ * @Description: 题目：141. 环形链表 easy
  * <p>
  * 给定一个链表，判断链表中是否有环。
  * <p>

@@ -1,4 +1,4 @@
-package io.github.chinalhr.leetcode.medium.design;
+package io.github.chinalhr.leetcode.design;
 
 import com.google.common.base.Preconditions;
 
