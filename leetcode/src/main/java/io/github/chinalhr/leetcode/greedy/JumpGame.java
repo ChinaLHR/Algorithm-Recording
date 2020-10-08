@@ -17,13 +17,21 @@ package io.github.chinalhr.leetcode.greedy;
  * 输入: [3,2,1,0,4]
  * 输出: false
  * 解释: 无论怎样，你总会到达索引为 3 的位置。但该位置的最大跳跃长度是 0 ， 所以你永远不可能到达最后一个位置。
+ * <p>
  * 实现：
- * 依次遍历数组中的每一个位置，并实时维护 最远可以到达的位置。对于当前遍历到的位置 xxx，如果它在 最远可以到达的位置 的范围内，
- * 那么我们就可以从起点通过若干次跳跃到达该位置，因此我们可以用 x+nums[x]x + \textit{nums}[x]x+nums[x] 更新 最远可以到达的位置。
+ * 如果某一个作为 起跳点 的格子可以跳跃的距离是 3，那么表示后面 3 个格子都可以作为 起跳点。
+ * 可以对每一个能作为 起跳点 的格子都尝试跳一次，把 能跳到最远的距离 不断更新。
+ * 如果可以一直跳到最后，就成功了。
  */
 public class JumpGame {
 
-//    public boolean canJump(int[] nums) {
-//    }
+    public boolean canJump(int[] nums) {
+        int k = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (i>k) return false;
+            k = Math.max(k,i+nums[i]);
+        }
+        return true;
+    }
 
 }
