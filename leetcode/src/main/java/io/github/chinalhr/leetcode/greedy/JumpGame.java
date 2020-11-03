@@ -28,6 +28,7 @@ public class JumpGame {
     public boolean canJump(int[] nums) {
         int k = 0;
         for (int i = 0; i < nums.length; i++) {
+            //最远已经无法跳到当前位置了
             if (i>k) return false;
             k = Math.max(k,i+nums[i]);
         }

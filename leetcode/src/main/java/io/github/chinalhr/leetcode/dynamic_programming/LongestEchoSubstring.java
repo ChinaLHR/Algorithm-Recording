@@ -42,12 +42,13 @@ public class LongestEchoSubstring {
             dp[i][i] = true;
         }
 
+        //j为右指针、i为左指针
         for (int j = 1; j < len; j++) {
             for (int i = 0; i < j; i++) {
                 if (charArray[i] != charArray[j]) {
                     dp[i][j] = false;
                 } else {
-                    //最短的回文串了
+                    //最短的回文串了（示例：aba 2-0 = 2 < 3）
                     if (j - i < 3) {
                         dp[i][j] = true;
                     } else {
@@ -55,6 +56,10 @@ public class LongestEchoSubstring {
                     }
                 }
 
+                /**
+                 * 判断条件 1. 为回文字 2. 回文字符串大小大于目前最大的回文字大小
+                 * 设置最长回文字maxLen、begin位置
+                 */
                 if (dp[i][j] && j - i + 1 > maxLen) {
                     maxLen = j - i + 1;
                     begin = i;

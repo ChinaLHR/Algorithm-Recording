@@ -37,7 +37,6 @@ public class MergeKSortedLists {
         ListNode leftList = merge(lists, left, mid);
         ListNode rightList = merge(lists, mid + 1, right);
         return mergeTwoLists(leftList, rightList);
-
     }
 
     private ListNode mergeTwoLists(ListNode l1, ListNode l2) {

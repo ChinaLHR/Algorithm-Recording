@@ -23,7 +23,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
          */
         HashMap<Character, Integer> map = new HashMap<>();
         int max = 0;//最长子串长度
-        int left = 0;
+        int left = 0;//左指针
         for (int i = 0; i < s.length(); i++) {
             //如果已经出现过，更新left指针到之前该字符index后一位，此时两指针间的滑动窗口内还是无重复字符的子串
             if (map.containsKey(s.charAt(i))) {
