@@ -1,11 +1,6 @@
 package io.github.chinalhr.leetcode.array;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * @Author lhr
@@ -18,7 +13,7 @@ import java.util.stream.Stream;
  * 输出：[0,1]
  * </p>
  */
-public class Solution {
+public class SumOfTwoNum {
 
     public int[] twoSum(int[] nums, int target) {
         //result

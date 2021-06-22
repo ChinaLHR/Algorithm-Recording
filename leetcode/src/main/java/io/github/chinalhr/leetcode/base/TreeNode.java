@@ -6,7 +6,7 @@ package io.github.chinalhr.leetcode.base;
  * @Description:
  */
 public class TreeNode {
-    int val;
+    public int val;
 
     public TreeNode left;
 
